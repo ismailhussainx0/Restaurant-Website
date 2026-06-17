@@ -27,6 +27,12 @@ nav {
     color: #F77F00;
 }
 
+.nav-link.active{
+    color: #F77F00 !important;
+    font-weight: 600;
+    border-bottom: 2px solid #F77F00;
+}
+
 .nav-btn {
     background-color: #D62828;
     color: white;
