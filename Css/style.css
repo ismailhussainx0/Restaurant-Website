@@ -322,3 +322,11 @@ section {
 .social-icons a:hover{
     color: #D62828;
 }
+
+
+/* about section */
+.about-text{
+    color: #6C757D;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
