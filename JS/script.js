@@ -7,6 +7,8 @@ let spanEmail = document.querySelector("#emailspan");
 let spanSubject = document.querySelector("#subjectspan");
 let spanMessage = document.querySelector("#messagespan");
 
+let successMsg = document.querySelector("#successMsg");
+
 
 contactForm.addEventListener("submit", function (event) {
 
@@ -14,6 +16,8 @@ contactForm.addEventListener("submit", function (event) {
     spanEmail.innerText = "";
     spanSubject.innerText = "";
     spanMessage.innerText = "";
+
+    successMsg.innerText = "";
 
     let formName = document.querySelector("#name").value;
     let formEmail = document.querySelector("#email").value;
@@ -39,10 +43,31 @@ contactForm.addEventListener("submit", function (event) {
         spanSubject.innerText = "Plese Enter Subject";
     }
 
-
+    // Form Message
     if (formMessage.trim() === "") {
         event.preventDefault();
         spanMessage.innerText = "Plese Enter Your Message";
     }
 
+    // success Message 
+    if(formName.trim() !== "" && formEmail.trim() !== "" && formSubject.trim() !== "" && formMessage.trim() !== ""){
+        event.preventDefault();
+        successMsg.innerText = "Message Submitted Successfully!"
+    }
+
+    setTimeout(function(){
+        successMsg.innerText = "";
+    }, 4000)
+
 })
+
+
+
+// Menu Search Feature
+
+// let searchInput = document.querySelector("#searchInput").value;
+// let menuItem = document.querySelectorAll(".menu-item");
+
+// searchInput.addEventListener("input", function(){
+//     if
+// });
