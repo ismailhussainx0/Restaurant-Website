@@ -61,13 +61,3 @@ contactForm.addEventListener("submit", function (event) {
 
 })
 
-
-
-// Menu Search Feature
-
-// let searchInput = document.querySelector("#searchInput").value;
-// let menuItem = document.querySelectorAll(".menu-item");
-
-// searchInput.addEventListener("input", function(){
-//     if
-// });
