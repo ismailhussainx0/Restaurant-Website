@@ -53,26 +53,6 @@ https://ismailhussainx0.github.io/Restaurant-Website/
 * Google Maps integration
 * Contact information
 
-## 📚 What I Learned
-
-During this project, I improved my skills in:
-
-* Responsive Web Design
-* Bootstrap Grid System
-* JavaScript DOM Manipulation
-* Form Validation
-* Git & GitHub Workflow
-* Debugging and Problem Solving
-* Project Deployment with GitHub Pages
-
-## 🔮 Future Improvements
-
-* Online table reservation system
-* Food ordering functionality
-* Backend integration
-* Database connectivity
-* User authentication
-
 ## 👨‍💻 Author
 
 **Ismail Hussain**
